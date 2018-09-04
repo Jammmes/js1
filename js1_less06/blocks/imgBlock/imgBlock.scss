@@ -1,0 +1,27 @@
+.imgBlock{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items: center;
+	margin: 10px 40px;
+}
+
+.imgBlock__leftArrow{
+	height:28px;
+	width:15px;
+	background:url("../img/common/leftArrow.png");
+	cursor:pointer;
+}
+.imgBlock__rightArrow{
+	height:28px;
+	width:15px;
+	background:url("../img/common/rightArrow.png");
+	cursor:pointer;
+}
+
+.imgBlock__productImg{
+	border:4px double;
+	width:500px;
+	height:500px;
+	margin:30px;
+}

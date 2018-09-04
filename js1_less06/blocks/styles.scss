@@ -1,0 +1,15 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+@import "../blocks/header/header";
+@import "../blocks/container/container";
+@import "../blocks/productBlock/productBlock";
+@import "../blocks/product/product";
+@import "../blocks/imgBlock/imgBlock";
+@import "../blocks/descrBlock/descrBlock";
+@import "../blocks/galleryBlock/galleryBlock";
+@import "../blocks/gallery/gallery";
+@import "../blocks/basket/basket";
+@import "../blocks/basketList/basketList";

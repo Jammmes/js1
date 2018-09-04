@@ -1,0 +1,29 @@
+.basket{
+	border:4px double;
+	background:darkGray;
+	min-width:30%;
+}
+
+.basket__title{
+	text-align:center;
+	padding-bottom: 30px;
+	border-bottom:1px dashed;
+}
+
+.basket__list{
+	margin:10px 30px;
+	list-style:decimal;
+}
+
+.basket__listItem{
+	&:nth-child(2n) {
+	background-color: DimGray;
+	}
+}
+
+
+.basket__total{
+	margin:10px 30px;
+	font-size:24px;
+	font-weight:700;
+}

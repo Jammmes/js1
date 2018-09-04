@@ -1,0 +1,114 @@
+.page_tuning {
+  display: flex;
+  flex-direction: row;
+}
+
+.panel_tuning {
+  background-color: DarkGray;
+  padding: 10px;
+  margin: 20px;
+  height: 100%;
+  text-align: center;
+}
+
+.chessBoard_tuning {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 900px;
+  border: 4px double;
+}
+
+.cell_white {
+  background-color: #fff;
+}
+
+.cell_black {
+  background-color: DarkGrey;
+}
+
+.cell_lbl {
+  background-color: #fff;
+  font-family: Arial, Sans-serif;
+  color: #000;
+}
+
+.cell__item {
+  width: 100px;
+  height: 100px;
+  font-size: 72px;
+  text-align: center;
+  outline: 2px auto #646464;
+}
+
+.cell__item_label {
+  font-size: 34px;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+.figure {
+  width: 100px;
+  height: 100px;
+}
+
+.figure_bPawn {
+  background: url("../img/chess.png") no-repeat;
+  background-position: -532px 14px;
+}
+
+.figure_wPawn {
+  background: url("../img/chess.png") no-repeat;
+  background-position: -532px -80px;
+}
+
+.figure_bRook {
+  background: url("../img/chess.png") no-repeat;
+  background-position: -200px 14px;
+}
+
+.figure_wRook {
+  background: url("../img/chess.png") no-repeat;
+  background-position: -200px -80px;
+}
+
+.figure_bKnight {
+  background: url("../img/chess.png") no-repeat;
+  background-position: -422px 14px;
+}
+
+.figure_wKnight {
+  background: url("../img/chess.png") no-repeat;
+  background-position: -422px -80px;
+}
+
+.figure_bBishop {
+  background: url("../img/chess.png") no-repeat;
+  background-position: -310px 14px;
+}
+
+.figure_wBishop {
+  background: url("../img/chess.png") no-repeat;
+  background-position: -310px -80px;
+}
+
+.figure_bQueen {
+  background: url("../img/chess.png") no-repeat;
+  background-position: 20px 14px;
+}
+
+.figure_wQueen {
+  background: url("../img/chess.png") no-repeat;
+  background-position: 20px -80px;
+}
+
+.figure_bKing {
+  background: url("../img/chess.png") no-repeat;
+  background-position: -88px 14px;
+}
+
+.figure_wKing {
+  background: url("../img/chess.png") no-repeat;
+  background-position: -88px -80px;
+}

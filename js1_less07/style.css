@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#snake-field {
+    background: black;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#snake-start,
+#snake-renew {
+    width: 150px;
+    height: 40px;
+    padding: 15px;
+    margin: 20px;
+    color: #fff;
+    line-height: 40px;
+    font-size: 2em;
+    text-align: center;
+    background: green;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+.game-table {
+    border-collapse: collapse;
+}
+
+td.game-table-cell {
+    width: 25px;
+    height: 25px;
+    border: 1px dotted rgba(255, 255, 255, .2);
+    border-collapse: collapse;
+}
+
+.snake-unit {
+    background: url("img/unit.jpg");
+    background-size: contain;
+}
+
+.snake-head {
+    background: url("img/head.jpg");
+    background-size: contain;
+    transform: scale(1.1, 1.1);
+}
+
+.food-unit {
+    background: url("img/food.png");
+    background-size: contain;
+}
+
+.trouble-unit {
+    background: url("img/dead.png");
+    background-size: contain;
+}
+
+#snake-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.snake-stat__item {
+    text-align: center;
+    font-size: 2em;
+}
+
+.snake-stat__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+#snake-stat {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.snake-dead {
+    animation-name: animDead;
+    animation-duration: 0.1s;
+    animation-iteration-count: 5;
+}
+
+@keyframes animDead {
+    from {
+        transform: skewY(20deg);
+    }
+    to {
+        transform: skewY(-20deg);
+    }
+}
+
+.snake-eating {
+    animation-name: animEat;
+    animation-duration: 0.1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes animEat {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.5;
+    }
+}

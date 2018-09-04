@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>lesson6</title>
+		<link rel="stylesheet" href="styles/styles.css">
+	</head>
+	<body>
+		<header class="header">
+			<h1 class="header__title">Магазин подарков</div>
+		</header>
+	 	<div class="container">
+	 		<main class="productBlock">
+	 			<section class="product">
+	 				<div class="imgBlock">
+	 					<div class="imgBlock__leftArrow"></div>
+	 					<img class="imgBlock__productImg"/ alt ="Увеличенное изображение не найдено">	
+	 					<div class="imgBlock__rightArrow"></div>
+	 				</div>
+	 				<div class="descrBlock">
+	 					<h3 class="descrBlock__title">Наименование товара</h3>
+	 					<div class="descrBlock__name"></div>
+	 					<h3 class="descrBlock__title">Цена, руб.</h3>
+	 					<div class="descrBlock__price"></div>
+	 					<button class="descrBlock__btn" onclick="addProduct()">Купить</button>	
+	 				</div>		
+	 			</section>
+	 			<section class="galleryBlock">
+	 				<h2 class="galleryBlock__title">Перечень товаров:</h2>
+	 				<div class="gallery">
+	 					<img class="gallery__img" data-name="Коробка № 1" 
+	 					data-price="120" alt="..." src="img/preview/2.jpg" />
+	 					<img class="gallery__img" data-name="Коробка № 2" 
+	 						data-price="500" alt="..." src="img/preview/4.jpg" />
+	 					<img class="gallery__img" data-name="Коробка № 3" 
+	 						data-price="220" alt="..." src="img/preview/10.jpg" />
+	 					<img class="gallery__img" data-name="Коробка № 4" 
+	 						data-price="300" alt="..." src="img/preview/19.jpg" />
+	 				</div>
+	 			</section>
+	 		</main>
+	 		<aside class="basket">
+	 			<h2 class="basket__title">Перечень выбранных товаров:</h2>
+	 			<ul class="basket__list"></ul>
+	 			<div class="basket__total"></div>
+	 		</aside>	
+	 	</div>
+	<script src="js/script_lesson6.js"></script>
+	</body>
+</html>

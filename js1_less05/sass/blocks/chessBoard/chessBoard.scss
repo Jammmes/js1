@@ -1,0 +1,10 @@
+.chessBoard{} 
+
+.chessBoard_tuning{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	flex-wrap:wrap;
+	width:900px;
+	border:4px double;
+}

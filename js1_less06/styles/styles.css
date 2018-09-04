@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: pink;
+}
+
+.header__title {
+  text-align: center;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.productBlock {
+  width: 70%;
+  height: 100%;
+  border: 1px solid;
+}
+
+.product {
+  background: Gray;
+  display: flex;
+  flex-direction: row;
+}
+
+.imgBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 40px;
+}
+
+.imgBlock__leftArrow {
+  height: 28px;
+  width: 15px;
+  background: url("../img/common/leftArrow.png");
+  cursor: pointer;
+}
+
+.imgBlock__rightArrow {
+  height: 28px;
+  width: 15px;
+  background: url("../img/common/rightArrow.png");
+  cursor: pointer;
+}
+
+.imgBlock__productImg {
+  border: 4px double;
+  width: 500px;
+  height: 500px;
+  margin: 30px;
+}
+
+.descrBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.descrBlock__name {
+  font-size: 32px;
+  margin: 30px 0;
+  font-style: italic;
+}
+
+.descrBlock__price {
+  font-size: 32px;
+  margin: 30px 0;
+  font-style: italic;
+}
+
+.descrBlock__btn {
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  font-size: 22px;
+}
+
+.galleryBlock__title {
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.gallery__img {
+  width: 100px;
+  height: 100px;
+  margin: 10px 20px;
+  cursor: pointer;
+}
+
+.basket {
+  border: 4px double;
+  background: darkGray;
+  min-width: 30%;
+}
+
+.basket__title {
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: 1px dashed;
+}
+
+.basket__list {
+  margin: 10px 30px;
+  list-style: decimal;
+}
+
+.basket__listItem:nth-child(2n) {
+  background-color: DimGray;
+}
+
+.basket__total {
+  margin: 10px 30px;
+  font-size: 24px;
+  font-weight: 700;
+}

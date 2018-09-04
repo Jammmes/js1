@@ -1,0 +1,30 @@
+
+.cell{}
+
+.cell_white{
+	background-color:#fff;
+}
+
+.cell_black{
+	background-color:DarkGrey;
+}
+
+.cell_lbl{
+	background-color:#fff;
+	font-family:$mainFont;
+	color:#000;
+}
+
+.cell__item{
+	width:100px;
+	height:100px;
+	font-size:72px;
+	text-align: center;
+	outline: 2px auto #646464;
+}
+
+.cell__item_label{
+	font-size: 34px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}

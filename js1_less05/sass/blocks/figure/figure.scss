@@ -1,0 +1,66 @@
+$chessFigure: url("../img/chess.png") no-repeat;
+
+.figure{
+  width: 100px;
+  height: 100px; 
+}
+
+.figure_bPawn{
+	background: $chessFigure;
+	background-position: -532px 14px;
+}
+
+.figure_wPawn{
+	background: $chessFigure;
+	background-position: -532px -80px;
+}
+
+.figure_bRook{
+	background: $chessFigure;
+	background-position: -200px 14px;
+}
+
+.figure_wRook{
+	background: $chessFigure;
+	background-position: -200px -80px;
+}
+
+.figure_bKnight{
+	background: $chessFigure;
+	background-position: -422px 14px;
+}
+
+.figure_wKnight{
+	background: $chessFigure;
+	background-position: -422px -80px;
+}
+
+.figure_bBishop{
+	background: $chessFigure;
+	background-position: -310px 14px;
+}
+
+.figure_wBishop{
+	background: $chessFigure;
+	background-position: -310px -80px;	
+}
+
+.figure_bQueen{
+	background: $chessFigure;
+	background-position: 20px 14px;
+}
+
+.figure_wQueen{
+	background: $chessFigure;
+	background-position: 20px -80px;	
+}
+
+.figure_bKing{
+	background: $chessFigure;
+	background-position: -88px 14px;
+}
+
+.figure_wKing{
+	background: $chessFigure;
+	background-position: -88px -80px;	
+}
